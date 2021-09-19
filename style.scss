@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background:#e0e0e0;
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .query-name{
+            
+            height: 200px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap:20px;
+            h2 {
+                text-transform: uppercase;
+            }
+            input{
+                padding: 6px;
+                border-radius: 8px;
+                border: none;
+                width: 60%;
+
+            }
+            .btn-guess{
+                padding: 8px 18px;
+                border: none;
+                border-radius: 10px;
+                font-weight: bold;
+                background: rgb(255, 199, 135);
+               &:hover{
+                   cursor: pointer;
+               }
+                &:active{
+                    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+                }
+            }
+        }
+        .prediction{
+            margin-top: 30px;
+            display: none;
+            height: 100px;
+            padding: 40px;
+            font-size: 1.5rem;
+            border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+        }
+    }
+}

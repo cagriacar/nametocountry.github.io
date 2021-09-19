@@ -1,0 +1,90 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #e0e0e0;
+}
+
+body .container {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .query-name {
+  height: 200px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+
+body .container .query-name h2 {
+  text-transform: uppercase;
+}
+
+body .container .query-name input {
+  padding: 6px;
+  border-radius: 8px;
+  border: none;
+  width: 60%;
+}
+
+body .container .query-name .btn-guess {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  background: #ffc787;
+}
+
+body .container .query-name .btn-guess:hover {
+  cursor: pointer;
+}
+
+body .container .query-name .btn-guess:active {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+body .container .prediction {
+  margin-top: 30px;
+  display: none;
+  height: 100px;
+  padding: 40px;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  background: #e0e0e0;
+  -webkit-box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+          box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+/*# sourceMappingURL=style.css.map */
